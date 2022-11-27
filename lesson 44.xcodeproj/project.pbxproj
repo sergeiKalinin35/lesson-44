@@ -56,15 +56,55 @@
 		06C9606229329E910087FD0A /* lesson 44 */ = {
 			isa = PBXGroup;
 			children = (
-				06C9606329329E910087FD0A /* AppDelegate.swift */,
-				06C9606529329E910087FD0A /* SceneDelegate.swift */,
-				06C9606729329E910087FD0A /* ViewController.swift */,
-				06C9606929329E910087FD0A /* Main.storyboard */,
-				06C9606C29329E940087FD0A /* Assets.xcassets */,
-				06C9606E29329E940087FD0A /* LaunchScreen.storyboard */,
-				06C9607129329E940087FD0A /* Info.plist */,
+				06C960792933F4920087FD0A /* View Controllers */,
+				06C960772933F2C00087FD0A /* Storyboards */,
+				06C9607B2933F5AD0087FD0A /* Models */,
+				06C9607A2933F4B60087FD0A /* Resourses */,
+				06C960782933F3140087FD0A /* Supporting Files */,
 			);
 			path = "lesson 44";
+			sourceTree = "<group>";
+		};
+		06C960772933F2C00087FD0A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				06C9606929329E910087FD0A /* Main.storyboard */,
+				06C9606E29329E940087FD0A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		06C960782933F3140087FD0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06C9606329329E910087FD0A /* AppDelegate.swift */,
+				06C9606529329E910087FD0A /* SceneDelegate.swift */,
+				06C9607129329E940087FD0A /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06C960792933F4920087FD0A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				06C9606729329E910087FD0A /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		06C9607A2933F4B60087FD0A /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				06C9606C29329E940087FD0A /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		06C9607B2933F5AD0087FD0A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "lesson 44/Info.plist";
+				INFOPLIST_FILE = "lesson 44/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -303,7 +343,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +355,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "lesson 44/Info.plist";
+				INFOPLIST_FILE = "lesson 44/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +370,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
