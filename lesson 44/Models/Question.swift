@@ -5,4 +5,24 @@
 //  Created by Sergey on 28.11.2022.
 //
 
-import Foundation
+
+enum ResponseType {
+    case single
+    case multiple
+    case ranged
+}
+
+
+struct Question {
+    let text: String
+    let type: ResponseType
+    let answers: [Answer]
+}
+
+
+
+
+
+
+
+
