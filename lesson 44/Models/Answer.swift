@@ -33,6 +33,8 @@ enum AnimalType: Character {
 
 
 
-
+struct CatBack {
+    let text: String
+}
 
 
