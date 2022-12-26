@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GreenViewController: UIViewController {
+class ResultsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

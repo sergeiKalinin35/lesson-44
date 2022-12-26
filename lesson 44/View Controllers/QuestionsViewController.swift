@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RedViewController: UIViewController {
+class QuestionsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
